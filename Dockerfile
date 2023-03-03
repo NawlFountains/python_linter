@@ -3,7 +3,7 @@ FROM archlinux
 RUN pacman -Suy --noconfirm \
 	bash \
 	python \
-	pip
+	python-pip
 
 RUN pip pylint
 RUN pip flake8
