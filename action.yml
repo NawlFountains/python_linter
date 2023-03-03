@@ -1,0 +1,8 @@
+name: 'Python linter'
+description: 'Applies pylint and flake8 to all .py files in repository'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'folder'
+  color: 'purple'
