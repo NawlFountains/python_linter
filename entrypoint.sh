@@ -4,7 +4,8 @@
 echo "Linter start"
 
 for file in *.py; do
-	echo "file"
+	ls
+	echo "$file"
 	pylint file
 	flake8 file
 done
